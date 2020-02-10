@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="{{ lang }}">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="{{ css }}" rel="stylesheet">
+
+    <title>{{ title }}</title>
+    <style>
+      section { text-align: center; }
+      section p { text-align: justify; }
+      section img { margin: 10px; max-width: 100px; max-height: 100px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <section>
+	<img src="{{ avatar }}" alt="{{ avatar_alt }}" />
+	<h2>{{ title }}</h2>
+	<h3>{{ job }}</h3>
+      </section>
+
+      <hr/>
+
+      {% for section in sections %}
+      <h1>{{ section.title }}</h1>
+      {% for row in grouper(section.entries, 3) %}
+      <div class="row">
+	{% for entry in row %}
+	<section class="col-md-4">
+	  <img src="{{ entry.image }}" alt="{{ entry.image_alt or entry.image_title }}" title="{{ entry.image_title }}" />
+	  {% if entry.raw %}
+	  {{ entry.raw }}
+	  {% else %}
+	  <h3>{{ entry.title }}</h3>
+	  <p>
+	    {{ entry.description }}
+	  </p>
+	  {% if entry.links %}
+	  <p>
+	    {% for title, href in entry.links %}
+	    <a href="{{ href }}">{{ title }}</a>
+	    {{ "—" if not loop.last }}
+	    {% endfor %}
+	  </p>
+	  {% endif %}
+	  {% endif %}
+	</section>
+	{% endfor %}
+      </div>
+      {% endfor %}
+      <hr/>
+      {% endfor %}
+    </div>
+  </body>
+</html>
