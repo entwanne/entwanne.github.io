@@ -3,12 +3,17 @@ import jinja2
 
 files = {}
 
+fr_flag = '<img src="/img/fr_flag.png" alt="FR" title="Français" />'
+en_flag = '<img src="/img/gb_flag.png" alt="EN" title="English" />'
+
 files['index.html'] = {
     'title': 'Antoine Rozo (entwanne)',
     'job': 'Développeur Python',
     'avatar': 'img/entwanne.png',
     'avatar_alt': 'entwanne',
     'lang': 'fr',
+    'header_links': f'<a href="#">{fr_flag}</a> — <a href="en/">{en_flag}</a>',
+    'credits': '© Logos Python, PyConFr, Zeste de Savoir, Twitter & Github. Drapeaux par OpenMoji.',
     'sections': [
         {
             'title': 'Projets',
@@ -159,6 +164,8 @@ files['en/index.html'] = {
     'avatar': '../img/entwanne.png',
     'avatar_alt': 'entwanne',
     'lang': 'en',
+    'header_links': f'<a href="../">{fr_flag}</a> — <a href="#">{en_flag}</a>',
+    'credits': '© Python, PyConFr, Zeste de Savoir, Twitter & Github logos. Flags by OpenMoji.',
     'sections': [
         {
             'title': 'Projects',

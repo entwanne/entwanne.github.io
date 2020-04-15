@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="{{ css }}" rel="stylesheet">
+    <link rel="icon" href="{{ avatar }}">
 
     <title>{{ title }}</title>
     <style>
@@ -15,6 +16,9 @@
   </head>
   <body>
     <div class="container">
+      {% if header_links %}
+        <p class="text-right">{{ header_links }}</p>
+      {% endif %}
       <section>
 	<img src="{{ avatar }}" alt="{{ avatar_alt }}" />
 	<h2>{{ title }}</h2>
@@ -52,6 +56,10 @@
       {% endfor %}
       <hr/>
       {% endfor %}
+
+      {% if credits %}
+        <p class="text-center"><small>{{ credits }}</small></p>
+      {% endif %}
     </div>
   </body>
 </html>
