@@ -16,6 +16,122 @@ files['index.html'] = {
     'credits': '© Logos Python, PyConFr, Zeste de Savoir, Twitter & Github. Drapeaux par OpenMoji.',
     'sections': [
         {
+            'title': 'Publications',
+            'entries': [
+                {
+                    'title': 'Notions de Python avancées',
+                    'image': 'img/logo_cours_python_avance.png',
+                    'image_alt': 'logo',
+                    'description': 'Cours sur les notions avancées du langage Python : itérateurs, générateurs, décorateurs, métaclasses, etc.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/954/notions-de-python-avancees/'),
+                        ('Code source', 'https://github.com/entwanne/cours_python_avance'),
+                    ],
+                },
+                {
+                    'title': "Les secrets d'un code pythonique",
+                    'image': 'img/logo_article_code_pythonique.png',
+                    'image_alt': 'logo',
+                    'description': "Article dédié à la philosophie Python et la structuration d'un bon code en Python.",
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/articles/1079/les-secrets-dun-code-pythonique/'),
+                        ('Code source', 'https://github.com/entwanne/article_pythonic_code'),
+                    ],
+                },
+                {
+                    'title': 'La programmation orientée objet en Python',
+                    'image': 'img/logo_cours_python_poo.png',
+                    'image_alt': 'logo',
+                    'description': 'Cours portant sur la programmation orientée objet en Python : classes, méthodes, héritage, opérateurs et autres.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
+                        ('Code source', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
+                    ],
+                },
+                {
+                    'title': "Plongée au cœur de l'asynchrone en Python",
+                    'image': 'img/logo_article_python_asynchrone.png',
+                    'image_alt': 'logo',
+                    'description': "Construction pas à pas d'un moteur asynchrone Python pour en comprendre les arcanes.",
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/articles/3306/plongee-au-coeur-de-lasynchrone-en-python/'),
+                        ('Code source', 'https://github.com/entwanne/article_python_plongee_asynchrone'),
+                    ],
+                },
+                {
+                    'title': 'Variables, scopes et closures en Python',
+                    'image': 'img/logo_cours_python_closures.png',
+                    'image_alt': 'logo',
+                    'description': 'Explications sur les scopes et la portée des variables en Python, sur les spécificités du langage.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/3163/variables-scopes-et-closures-en-python/'),
+                        ('Code source', 'https://github.com/entwanne/cours_variables_scopes_closures_python'),
+                    ],
+                },
+                {
+                    'title': 'Sortie de Python 3.6',
+                    'image': 'img/logo_article_python36.png',
+                    'image_alt': 'logo',
+                    'description': 'Article évoquant les nouveautés apportées par la version 3.6 de Python.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/articles/1540/sortie-de-python-3-6/'),
+                        ('Code source', 'https://github.com/entwanne/sortie-de-python-3-6'),
+                    ],
+                },
+            ],
+        },
+        {
+            'title': 'Conférences',
+            'entries': [
+                {
+                    'title': 'Plongée au cœur du modèle asynchrone Python',
+                    'image': 'img/logo_pyconfr_2019.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Tout mécanisme Python repose sur des interfaces simples.<br/>
+                    L'asynchrone aussi, et cette présentation permet de comprendre comment il fonctionne.<br/>
+                    <small>PyConFr 2019 Bordeaux.</small>
+                    ''',
+                    'links': [
+                        ('Youtube', 'https://www.youtube.com/watch?v=WdQmNl2kShI'),
+                        ('PyVideo', 'https://pyvideo.org/pycon-fr-2019/plongee-au-coeur-du-modele-asynchrone-python.html'),
+                        ('Support', 'https://entwanne.github.io/presentation_python_plongee_asynchrone'),
+                        ('Code source', 'https://github.com/entwanne/presentation_python_plongee_asynchrone'),
+                    ],
+                },
+                {
+                    'title': 'La dynamique des attributs',
+                    'image': 'img/logo_pyconfr_2018.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    L'accès aux attributs d'un objet en Python est plus complexe qu'il n'en a l'air.<br/>
+                    Cette présentation explore les différents mécanismes mis en œuvre pour rendre les attributs plus dynamiques.<br/>
+                    <small>PyConFr 2018 Lille — conférence non enregistrée.</small>
+                    ''',
+                    'links': [
+                        ('Support', 'https://entwanne.github.io/presentation_attributs_dynamiques_python'),
+                        ('Code source', 'https://github.com/entwanne/presentation_attributs_dynamiques_python'),
+                    ],
+                },
+                {
+                    'title': "Les secrets d'un code pythonique",
+                    'image': 'img/logo_pyconfr_2017.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Avez-vous déjà vu… un code pythonique ?<br/>
+                    Cette présentation explique ce qui se cache derrière ce terme souvent utilisé.<br/>
+                    <small>PyConFr 2017 Toulouse.</small>
+                    ''',
+                    'links': [
+                        ('Youtube', 'https://www.youtube.com/watch?v=qafVmsdUyjs'),
+                        ('PyVideo', 'https://pyvideo.org/pycon-fr-2017/les-secrets-dun-code-pythonique.html'),
+                        ('Support', 'https://github.com/entwanne/presentation_pythonic_code/blob/pdf/presentation.pdf'),
+                        ('Code source', 'https://github.com/entwanne/presentation_pythonic_code'),
+                    ],
+                },
+            ],
+        },
+        {
             'title': 'Projets',
             'entries': [
                 {
@@ -67,50 +183,6 @@ files['index.html'] = {
             ],
         },
         {
-            'title': 'Publications',
-            'entries': [
-                {
-                    'title': 'Notions de Python avancées',
-                    'image': 'img/logo_cours_python_avance.png',
-                    'image_alt': 'logo',
-                    'description': 'Cours sur les notions avancées du langage Python : itérateurs, générateurs, décorateurs, métaclasses, etc.',
-                    'links': [
-                        ('Publication', 'https://zestedesavoir.com/tutoriels/954/notions-de-python-avancees/'),
-                        ('Code source', 'https://github.com/entwanne/cours_python_avance'),
-                    ],
-                },
-                {
-                    'title': "Les secrets d'un code pythonique",
-                    'image': 'img/logo_article_code_pythonique.png',
-                    'image_alt': 'logo',
-                    'description': "Article dédié à la philosophie Python et la structuration d'un bon code.",
-                    'links': [
-                        ('Publication', 'https://zestedesavoir.com/articles/1079/les-secrets-dun-code-pythonique/'),
-                        ('Code source', 'https://github.com/entwanne/article_pythonic_code'),
-                    ],
-                },
-                {
-                    'title': 'La programmation orientée objet en Python',
-                    'image': 'img/logo_cours_python_poo.png',
-                    'image_alt': 'logo',
-                    'description': 'Cours portant sur la programmation orientée objet en Python : classes, méthodes, héritage, opérateurs et autres.',
-                    'links': [
-                        ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
-                        ('Code source', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
-                    ],
-                },
-                {
-                    'title': 'Sortie de Python 3.6',
-                    'image': 'img/logo_article_python36.png',
-                    'image_alt': 'logo',
-                    'description': 'Article évoquant les nouveautés apportées par la version 3.6 de Python.',
-                    'links': [
-                        ('Publication', 'https://zestedesavoir.com/articles/1540/sortie-de-python-3-6/'),
-                    ],
-                },
-            ],
-        },
-        {
             'title': 'Divers',
             'entries': [
                 {
@@ -120,6 +192,15 @@ files['index.html'] = {
                     'description': 'Participation à la traduction en français de la documentation Python.',
                     'links': [
                         ('Code source', 'https://github.com/python/python-docs-fr'),
+                    ],
+                },
+                {
+                    'title': 'Tribune Zeste de Savoir',
+                    'image': 'img/logo_zds.png',
+                    'image_alt': 'logo',
+                    'description': "Publication de billets d'humeur à propos de divers sujets (développement, voyage, cuisine, etc.) sur Zeste de Savoir.",
+                    'links': [
+                        ('Tribune', 'https://zestedesavoir.com/billets/voir/entwanne/'),
                     ],
                 },
                 {
@@ -167,6 +248,122 @@ files['en/index.html'] = {
     'header_links': f'<a href="../">{fr_flag}</a> — <a href="#">{en_flag}</a>',
     'credits': '© Python, PyConFr, Zeste de Savoir, Twitter & Github logos. Flags by OpenMoji.',
     'sections': [
+        {
+            'title': 'Publications',
+            'entries': [
+                {
+                    'title': f'Advanced Python notions {fr_flag}',
+                    'image': '../img/logo_cours_python_avance.png',
+                    'image_alt': 'logo',
+                    'description': 'French course on advanced notions of Python language: iterators, générators, decorators, metaclasses, etc.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/954/notions-de-python-avancees/'),
+                        ('Source code', 'https://github.com/entwanne/cours_python_avance'),
+                    ],
+                },
+                {
+                    'title': f'Secrets of pythonic code {fr_flag}',
+                    'image': '../img/logo_article_code_pythonique.png',
+                    'image_alt': 'logo',
+                    'description': 'French article dedicated to Python philosophy and structuration of a good code.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/articles/1079/les-secrets-dun-code-pythonique/'),
+                        ('Source code', 'https://github.com/entwanne/article_pythonic_code'),
+                    ],
+                },
+                {
+                    'title': f'Object-oriented programming in Python {fr_flag}',
+                    'image': '../img/logo_cours_python_poo.png',
+                    'image_alt': 'logo',
+                    'description': 'French course of object-oriented programming in Python: classes, methods, inheritance, operators and so more.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
+                        ('Source code', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
+                    ],
+                },
+                {
+                    'title': f'Dive into asynchronous Python {fr_flag}',
+                    'image': '../img/logo_article_python_asynchrone.png',
+                    'image_alt': 'logo',
+                    'description': "Construct an async Python engine to understand how it works internally.",
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/articles/3306/plongee-au-coeur-de-lasynchrone-en-python/'),
+                        ('Source code', 'https://github.com/entwanne/article_python_plongee_asynchrone'),
+                    ],
+                },
+                {
+                    'title': f'Python variables, scopes and closures {fr_flag}',
+                    'image': '../img/logo_cours_python_closures.png',
+                    'image_alt': 'logo',
+                    'description': 'Explications about scoping and name binding for Python variables.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/3163/variables-scopes-et-closures-en-python/'),
+                        ('Source code', 'https://github.com/entwanne/cours_variables_scopes_closures_python'),
+                    ],
+                },
+                {
+                    'title': f'Python 3.6 release {fr_flag}',
+                    'image': '../img/logo_article_python36.png',
+                    'image_alt': 'logo',
+                    'description': 'French article about new features introduced by Python 3.6.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/articles/1540/sortie-de-python-3-6/'),
+                        ('Source code', 'https://github.com/entwanne/sortie-de-python-3-6'),
+                    ],
+                },
+            ],
+        },
+        {
+            'title': 'Talks',
+            'entries': [
+                {
+                    'title': f'Dive into asynchronous Python {fr_flag}',
+                    'image': '../img/logo_pyconfr_2019.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    All Python mechanisms are based on simple interfaces.<br/>
+                    Asynchronous programming is one of them, and this presentation shows how it works.<br/>
+                    <small>PyConFr 2019 Bordeaux.</small>
+                    ''',
+                    'links': [
+                        ('Youtube', 'https://www.youtube.com/watch?v=WdQmNl2kShI'),
+                        ('PyVideo', 'https://pyvideo.org/pycon-fr-2019/plongee-au-coeur-du-modele-asynchrone-python.html'),
+                        ('Slides', 'https://entwanne.github.io/presentation_python_plongee_asynchrone'),
+                        ('Source code', 'https://github.com/entwanne/presentation_python_plongee_asynchrone'),
+                    ],
+                },
+                {
+                    'title': f'Dynamic attributes in Python {fr_flag}',
+                    'image': '../img/logo_pyconfr_2018.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Accessing Python objects attributes is more complex than it seems.<br/>
+                    This presentation goes through different mechanisms used to make attributes more dynamic.<br/>
+                    <small>PyConFr 2018 Lille — talk not recorded.</small>
+                    ''',
+                    'links': [
+                        ('Slides', 'https://entwanne.github.io/presentation_attributs_dynamiques_python'),
+                        ('Source code', 'https://github.com/entwanne/presentation_attributs_dynamiques_python'),
+                    ],
+                },
+                {
+                    'title': f'Secrets of pythonic code {fr_flag}',
+                    'image': '../img/logo_pyconfr_2017.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    "Have you ever seen… a pythonic code?"<br/>
+                    This talk is about constructions that can make a code pythonic or not.<br/>
+                    <small>PyConFr 2017 Toulouse.</small>
+                    ''',
+                    'links': [
+                        ('Youtube', 'https://www.youtube.com/watch?v=qafVmsdUyjs'),
+                        ('PyVideo', 'https://pyvideo.org/pycon-fr-2017/les-secrets-dun-code-pythonique.html'),
+                        ('Support', 'https://github.com/entwanne/presentation_pythonic_code/blob/pdf/presentation.pdf'),
+                        ('Code source', 'https://github.com/entwanne/presentation_pythonic_code'),
+                    ],
+                },
+            ],
+        },
         {
             'title': 'Projects',
             'entries': [
@@ -219,50 +416,6 @@ files['en/index.html'] = {
             ],
         },
         {
-            'title': 'Publications',
-            'entries': [
-                {
-                    'title': 'Advanced Python notions',
-                    'image': '../img/logo_cours_python_avance.png',
-                    'image_alt': 'logo',
-                    'description': 'French course on advanced notions of Python language: iterators, générators, decorators, metaclasses, etc.',
-                    'links': [
-                        ('Publication <i>(FR)</i>', 'https://zestedesavoir.com/tutoriels/954/notions-de-python-avancees/'),
-                        ('Source code', 'https://github.com/entwanne/cours_python_avance'),
-                    ],
-                },
-                {
-                    'title': 'Secrets of pythonic code',
-                    'image': '../img/logo_article_code_pythonique.png',
-                    'image_alt': 'logo',
-                    'description': 'French article dedicated to Python philosophy and structuration of a good code.',
-                    'links': [
-                        ('Publication <i>(FR)</i>', 'https://zestedesavoir.com/articles/1079/les-secrets-dun-code-pythonique/'),
-                        ('Source code', 'https://github.com/entwanne/article_pythonic_code'),
-                    ],
-                },
-                {
-                    'title': 'Object-oriented programming in Python',
-                    'image': '../img/logo_cours_python_poo.png',
-                    'image_alt': 'logo',
-                    'description': 'French course of object-oriented programming in Python: classes, methods, inheritance, operators and so more.',
-                    'links': [
-                        ('Publication <i>(FR)</i>', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
-                        ('Source code', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
-                    ],
-                },
-                {
-                    'title': 'Python 3.6 release',
-                    'image': '../img/logo_article_python36.png',
-                    'image_alt': 'logo',
-                    'description': 'French article about new features introduced by Python 3.6.',
-                    'links': [
-                        ('Publication <i>(FR)</i>', 'https://zestedesavoir.com/articles/1540/sortie-de-python-3-6/'),
-                    ],
-                },
-            ],
-        },
-        {
             'title': 'Miscellaneous',
             'entries': [
                 {
@@ -272,6 +425,15 @@ files['en/index.html'] = {
                     'description': 'Contribution to French translation of Python documentation.',
                     'links': [
                         ('Source code', 'https://github.com/python/python-docs-fr'),
+                    ],
+                },
+                {
+                    'title': f'Opinion column {fr_flag}',
+                    'image': '../img/logo_zds.png',
+                    'image_alt': 'logo',
+                    'description': 'Opinion pieces about various subjects (development, travels, food, etc.) on "Zeste de Savoir" platform.',
+                    'links': [
+                        ('Tribune', 'https://zestedesavoir.com/billets/voir/entwanne/'),
                     ],
                 },
                 {
