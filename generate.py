@@ -13,11 +13,31 @@ files['index.html'] = {
     'avatar_alt': 'entwanne',
     'lang': 'fr',
     'header_links': f'<a href="#">{fr_flag}</a> — <a href="en/">{en_flag}</a>',
-    'credits': '© Logos Python, PyConFr, Zeste de Savoir, Twitter & Github. Drapeaux par OpenMoji.',
+    'credits': '© Logos Python, PyConFr, Zeste de Savoir, iRobot, Twitter & Github. Drapeaux par OpenMoji.',
     'sections': [
         {
             'title': 'Publications',
             'entries': [
+                {
+                    'title': 'Un zeste de Python',
+                    'image': 'img/logo_zeste_python.png',
+                    'image_alt': 'logo',
+                    'description': 'Cours à destination des débutant·e·s pour apprendre les bases de Python (variables, types, conditions, boucles, fonctions, modules).',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/2514/un-zeste-de-python/'),
+                        ('Code source', 'https://github.com/entwanne/cours_python_debutant'),
+                    ],
+                },
+                {
+                    'title': 'La programmation orientée objet en Python',
+                    'image': 'img/logo_cours_python_poo.png',
+                    'image_alt': 'logo',
+                    'description': 'Cours portant sur la programmation orientée objet en Python : classes, méthodes, héritage, opérateurs et autres.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
+                        ('Code source', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
+                    ],
+                },
                 {
                     'title': 'Notions de Python avancées',
                     'image': 'img/logo_cours_python_avance.png',
@@ -36,16 +56,6 @@ files['index.html'] = {
                     'links': [
                         ('Publication', 'https://zestedesavoir.com/articles/1079/les-secrets-dun-code-pythonique/'),
                         ('Code source', 'https://github.com/entwanne/article_pythonic_code'),
-                    ],
-                },
-                {
-                    'title': 'La programmation orientée objet en Python',
-                    'image': 'img/logo_cours_python_poo.png',
-                    'image_alt': 'logo',
-                    'description': 'Cours portant sur la programmation orientée objet en Python : classes, méthodes, héritage, opérateurs et autres.',
-                    'links': [
-                        ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
-                        ('Code source', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
                     ],
                 },
                 {
@@ -69,13 +79,13 @@ files['index.html'] = {
                     ],
                 },
                 {
-                    'title': 'Sortie de Python 3.6',
-                    'image': 'img/logo_article_python36.png',
+                    'title': 'Autres publications',
+                    'image': 'img/logo_zds.png',
                     'image_alt': 'logo',
-                    'description': 'Article évoquant les nouveautés apportées par la version 3.6 de Python.',
+                    'description': "Publication de tutoriels, articles et billets d'humeur à propos de divers sujets (développement, voyage, cuisine, etc.) sur Zeste de Savoir.",
                     'links': [
-                        ('Publication', 'https://zestedesavoir.com/articles/1540/sortie-de-python-3-6/'),
-                        ('Code source', 'https://github.com/entwanne/sortie-de-python-3-6'),
+                        ('Publications', 'https://zestedesavoir.com/contenus/voir/entwanne/'),
+                        ('Profil', 'https://zestedesavoir.com/@entwanne'),
                     ],
                 },
             ],
@@ -83,6 +93,19 @@ files['index.html'] = {
         {
             'title': 'Conférences',
             'entries': [
+                {
+                    'title': 'Dessine-moi une tortue',
+                    'image': 'img/logo_root_robot.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Présentation d'<i>aiorobot</i>, une bibliothèque asynchrone pour interagir avec un robot de dessin assimilable au module <i>turtle</i> de Python.<br/>
+                    <small>En attendant la PyConFr — 2021.</small>
+                    ''',
+                    'links': [
+                        ('Youtube', 'https://www.youtube.com/watch?v=MqSmfWajIJY'),
+                        ('PyVideo', 'https://pyvideo.org/en-attendant-la-pyconfr-2020-2021/dessine-moi-une-tortue.html'),
+                    ],
+                },
                 {
                     'title': 'Plongée au cœur du modèle asynchrone Python',
                     'image': 'img/logo_pyconfr_2019.png',
@@ -134,6 +157,18 @@ files['index.html'] = {
         {
             'title': 'Projets',
             'entries': [
+                {
+                    'title': 'aiorobot',
+                    'image': 'img/logo_root_robot.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Bibliothèque asynchrone permettant le contrôle d'un <a href="https://edu.irobot.com/what-we-offer/root-robot">Root robot</a> (robot de dessin).<br/>
+                    Réalisé avec <i>Python</i>.
+                    ''',
+                    'links': [
+                        ('Code source', 'https://github.com/entwanne/aiorobot'),
+                    ],
+                },
                 {
                     'title': 'Onitu',
                     'image': 'img/logo_onitu.png',
@@ -195,15 +230,6 @@ files['index.html'] = {
                     ],
                 },
                 {
-                    'title': 'Tribune Zeste de Savoir',
-                    'image': 'img/logo_zds.png',
-                    'image_alt': 'logo',
-                    'description': "Publication de billets d'humeur à propos de divers sujets (développement, voyage, cuisine, etc.) sur Zeste de Savoir.",
-                    'links': [
-                        ('Tribune', 'https://zestedesavoir.com/billets/voir/entwanne/'),
-                    ],
-                },
-                {
                     'title': 'Réalisations graphiques',
                     'image': 'img/picsou.png',
                     'image_alt': 'logo',
@@ -246,11 +272,31 @@ files['en/index.html'] = {
     'avatar_alt': 'entwanne',
     'lang': 'en',
     'header_links': f'<a href="../">{fr_flag}</a> — <a href="#">{en_flag}</a>',
-    'credits': '© Python, PyConFr, Zeste de Savoir, Twitter & Github logos. Flags by OpenMoji.',
+    'credits': '© Python, PyConFr, Zeste de Savoir, iRobot, Twitter & Github logos. Flags by OpenMoji.',
     'sections': [
         {
             'title': 'Publications',
             'entries': [
+                {
+                    'title': f'Zest of Python {fr_flag}',
+                    'image': '../img/logo_zeste_python.png',
+                    'image_alt': 'logo',
+                    'description': "Beginners course to learn Python basics (variables, data types, conditions, loops, functions, modules).",
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/2514/un-zeste-de-python/'),
+                        ('Source code', 'https://github.com/entwanne/cours_python_debutant'),
+                    ],
+                },
+                {
+                    'title': f'Object-oriented programming in Python {fr_flag}',
+                    'image': '../img/logo_cours_python_poo.png',
+                    'image_alt': 'logo',
+                    'description': 'French course of object-oriented programming in Python: classes, methods, inheritance, operators and so more.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
+                        ('Source code', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
+                    ],
+                },
                 {
                     'title': f'Advanced Python notions {fr_flag}',
                     'image': '../img/logo_cours_python_avance.png',
@@ -269,16 +315,6 @@ files['en/index.html'] = {
                     'links': [
                         ('Publication', 'https://zestedesavoir.com/articles/1079/les-secrets-dun-code-pythonique/'),
                         ('Source code', 'https://github.com/entwanne/article_pythonic_code'),
-                    ],
-                },
-                {
-                    'title': f'Object-oriented programming in Python {fr_flag}',
-                    'image': '../img/logo_cours_python_poo.png',
-                    'image_alt': 'logo',
-                    'description': 'French course of object-oriented programming in Python: classes, methods, inheritance, operators and so more.',
-                    'links': [
-                        ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
-                        ('Source code', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
                     ],
                 },
                 {
@@ -302,13 +338,13 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Python 3.6 release {fr_flag}',
-                    'image': '../img/logo_article_python36.png',
+                    'title': f'Other publications {fr_flag}',
+                    'image': '../img/logo_zds.png',
                     'image_alt': 'logo',
-                    'description': 'French article about new features introduced by Python 3.6.',
+                    'description': 'Tutorials, articles & opinion pieces about various subjects (development, travels, food, etc.) on "Zeste de Savoir" platform.',
                     'links': [
-                        ('Publication', 'https://zestedesavoir.com/articles/1540/sortie-de-python-3-6/'),
-                        ('Source code', 'https://github.com/entwanne/sortie-de-python-3-6'),
+                        ('Publications', 'https://zestedesavoir.com/contenus/voir/entwanne/'),
+                        ('Profile page', 'https://zestedesavoir.com/@entwanne'),
                     ],
                 },
             ],
@@ -316,6 +352,19 @@ files['en/index.html'] = {
         {
             'title': 'Talks',
             'entries': [
+                {
+                    'title': f'Draw me a turtle {fr_flag}',
+                    'image': '../img/logo_root_robot.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Talk about <i>aiorobot</i>, an asynchronous library to interact with a drawing robot like <i>turtle</i> Python module.<br/>
+                    <small>Waiting for PyConFr — 2021.</small>
+                    ''',
+                    'links': [
+                        ('Youtube', 'https://www.youtube.com/watch?v=MqSmfWajIJY'),
+                        ('PyVideo', 'https://pyvideo.org/en-attendant-la-pyconfr-2020-2021/dessine-moi-une-tortue.html'),
+                    ],
+                },
                 {
                     'title': f'Dive into asynchronous Python {fr_flag}',
                     'image': '../img/logo_pyconfr_2019.png',
@@ -368,12 +417,24 @@ files['en/index.html'] = {
             'title': 'Projects',
             'entries': [
                 {
+                    'title': 'aiorobot',
+                    'image': '../img/logo_root_robot.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Asynchronous library to control a <a href="https://edu.irobot.com/what-we-offer/root-robot">Root robot</a> (drawing robot).<br/>
+                    Made with <i>Python</i>.
+                    ''',
+                    'links': [
+                        ('Code source', 'https://github.com/entwanne/aiorobot'),
+                    ],
+                },
+                {
                     'title': 'Onitu',
                     'image': '../img/logo_onitu.png',
                     'image_alt': 'logo',
                     'description': '''
                     File synchronization tool between several services (<i>Google Drive</i>, <i>Dropbox</i>, <i>Amazon S3</i>).<br/>
-	            Realized with <i>Python</i> and <i>zeromq</i>.
+	            Made with <i>Python</i> and <i>zeromq</i>.
                     ''',
                     'links': [
                         ('Official website', 'http://onitu.github.io'),
@@ -386,7 +447,7 @@ files['en/index.html'] = {
                     'image_alt': 'logo',
                     'description': '''
                     Anonymous imageboard.<br/>
-	            Realized with <i>Python</i> and <i>Django</i>.
+	            Made with <i>Python</i> and <i>Django</i>.
                     ''',
                     'links': [
                         ('Source code', 'https://github.com/RodolpheOrg/Rodolphe'),
@@ -398,7 +459,7 @@ files['en/index.html'] = {
                     'image_alt': 'logo',
                     'description': '''
 	            Little role-playing-game engine.<br/>
-	            Realized with <i>Python</i> and <i>Pyglet</i>.
+	            Made with <i>Python</i> and <i>Pyglet</i>.
                     ''',
                     'links': [
                         ('Source code', 'https://github.com/entwanne/NAGM'),
@@ -425,15 +486,6 @@ files['en/index.html'] = {
                     'description': 'Contribution to French translation of Python documentation.',
                     'links': [
                         ('Source code', 'https://github.com/python/python-docs-fr'),
-                    ],
-                },
-                {
-                    'title': f'Opinion column {fr_flag}',
-                    'image': '../img/logo_zds.png',
-                    'image_alt': 'logo',
-                    'description': 'Opinion pieces about various subjects (development, travels, food, etc.) on "Zeste de Savoir" platform.',
-                    'links': [
-                        ('Tribune', 'https://zestedesavoir.com/billets/voir/entwanne/'),
                     ],
                 },
                 {
