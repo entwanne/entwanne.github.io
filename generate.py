@@ -8,12 +8,12 @@ en_flag = '<img src="/img/gb_flag.png" alt="EN" title="English" />'
 
 files['index.html'] = {
     'title': 'Antoine Rozo (entwanne)',
-    'job': 'Développeur Python',
+    'job': 'Ingénieur logiciel / Développeur Python',
     'avatar': 'img/entwanne.png',
     'avatar_alt': 'entwanne',
     'lang': 'fr',
     'header_links': f'<a href="#">{fr_flag}</a> — <a href="en/">{en_flag}</a>',
-    'credits': '© Logos Python, PyConFr, Zeste de Savoir, iRobot, Twitter & Github. Drapeaux par OpenMoji.',
+    'credits': '© Logos Python, PyConFR, Zeste de Savoir, iRobot, Twitter & Github. Drapeaux par OpenMoji.',
     'sections': [
         {
             'title': 'Publications',
@@ -94,12 +94,28 @@ files['index.html'] = {
             'title': 'Conférences',
             'entries': [
                 {
+                    'title': 'Devenir incollable sur les callables',
+                    'image': 'img/logo_pyconfr_2023.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Les fonctions ne sont pas les seuls objets appelables en Python.
+                    Que peut-on alors appeler d'autre ? Que se passe-t-il lors d'un appel ? Comment fontionnent les arguments et paramètres ?<br/>
+                    Cette conférence entend répondre à ces différentes questions.<br/>
+                    <small>PyConFR 2023 Bordeaux.</small>
+                    ''',
+                    'links': [
+                        ('IndyMotion', 'https://indymotion.fr/w/7ZN6k7KKG1wab3g9Fh8h1E'),
+                        ('Support', 'https://entwanne.github.io/presentation_callables/'),
+                        ('Code source', 'https://github.com/entwanne/presentation_callables'),
+                    ],
+                },
+                {
                     'title': 'Dessine-moi une tortue',
                     'image': 'img/logo_root_robot.png',
                     'image_alt': 'logo',
                     'description': '''
                     Présentation d'<i>aiorobot</i>, une bibliothèque asynchrone pour interagir avec un robot de dessin assimilable au module <i>turtle</i> de Python.<br/>
-                    <small>En attendant la PyConFr — 2021.</small>
+                    <small>En attendant la PyConFR — 2021.</small>
                     ''',
                     'links': [
                         ('Youtube', 'https://www.youtube.com/watch?v=MqSmfWajIJY'),
@@ -113,7 +129,7 @@ files['index.html'] = {
                     'description': '''
                     Tout mécanisme Python repose sur des interfaces simples.<br/>
                     L'asynchrone aussi, et cette présentation permet de comprendre comment il fonctionne.<br/>
-                    <small>PyConFr 2019 Bordeaux.</small>
+                    <small>PyConFR 2019 Bordeaux.</small>
                     ''',
                     'links': [
                         ('Youtube', 'https://www.youtube.com/watch?v=WdQmNl2kShI'),
@@ -129,7 +145,7 @@ files['index.html'] = {
                     'description': '''
                     L'accès aux attributs d'un objet en Python est plus complexe qu'il n'en a l'air.<br/>
                     Cette présentation explore les différents mécanismes mis en œuvre pour rendre les attributs plus dynamiques.<br/>
-                    <small>PyConFr 2018 Lille — conférence non enregistrée.</small>
+                    <small>PyConFR 2018 Lille — conférence non enregistrée.</small>
                     ''',
                     'links': [
                         ('Support', 'https://entwanne.github.io/presentation_attributs_dynamiques_python'),
@@ -143,7 +159,7 @@ files['index.html'] = {
                     'description': '''
                     Avez-vous déjà vu… un code pythonique ?<br/>
                     Cette présentation explique ce qui se cache derrière ce terme souvent utilisé.<br/>
-                    <small>PyConFr 2017 Toulouse.</small>
+                    <small>PyConFR 2017 Toulouse.</small>
                     ''',
                     'links': [
                         ('Youtube', 'https://www.youtube.com/watch?v=qafVmsdUyjs'),
@@ -267,12 +283,12 @@ files['index.html'] = {
 
 files['en/index.html'] = {
     'title': 'Antoine Rozo (entwanne)',
-    'job': 'Python Developer',
+    'job': 'Software Engineer / Python Developer',
     'avatar': '../img/entwanne.png',
     'avatar_alt': 'entwanne',
     'lang': 'en',
     'header_links': f'<a href="../">{fr_flag}</a> — <a href="#">{en_flag}</a>',
-    'credits': '© Python, PyConFr, Zeste de Savoir, iRobot, Twitter & Github logos. Flags by OpenMoji.',
+    'credits': '© Python, PyConFR, Zeste de Savoir, iRobot, Twitter & Github logos. Flags by OpenMoji.',
     'sections': [
         {
             'title': 'Publications',
@@ -353,12 +369,28 @@ files['en/index.html'] = {
             'title': 'Talks',
             'entries': [
                 {
+                    'title': f'Become unbeatable on callables {fr_flag}',
+                    'image': '../img/logo_pyconfr_2023.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Functions are not the only callable objects in Python.
+                    What other objects can we call? What happens during a call? How arguments & parameters work?<br/>
+                    This conference aims to answer to these questions.<br/>
+                    <small>PyConFR 2023 Bordeaux.</small>
+                    ''',
+                    'links': [
+                        ('IndyMotion', 'https://indymotion.fr/w/7ZN6k7KKG1wab3g9Fh8h1E'),
+                        ('Slides', 'https://entwanne.github.io/presentation_callables/'),
+                        ('Source code', 'https://github.com/entwanne/presentation_callables'),
+                    ],
+                },
+                {
                     'title': f'Draw me a turtle {fr_flag}',
                     'image': '../img/logo_root_robot.png',
                     'image_alt': 'logo',
                     'description': '''
                     Talk about <i>aiorobot</i>, an asynchronous library to interact with a drawing robot like <i>turtle</i> Python module.<br/>
-                    <small>Waiting for PyConFr — 2021.</small>
+                    <small>Waiting for PyConFR — 2021.</small>
                     ''',
                     'links': [
                         ('Youtube', 'https://www.youtube.com/watch?v=MqSmfWajIJY'),
@@ -372,7 +404,7 @@ files['en/index.html'] = {
                     'description': '''
                     All Python mechanisms are based on simple interfaces.<br/>
                     Asynchronous programming is one of them, and this presentation shows how it works.<br/>
-                    <small>PyConFr 2019 Bordeaux.</small>
+                    <small>PyConFR 2019 Bordeaux.</small>
                     ''',
                     'links': [
                         ('Youtube', 'https://www.youtube.com/watch?v=WdQmNl2kShI'),
@@ -388,7 +420,7 @@ files['en/index.html'] = {
                     'description': '''
                     Accessing Python objects attributes is more complex than it seems.<br/>
                     This presentation goes through different mechanisms used to make attributes more dynamic.<br/>
-                    <small>PyConFr 2018 Lille — talk not recorded.</small>
+                    <small>PyConFR 2018 Lille — talk not recorded.</small>
                     ''',
                     'links': [
                         ('Slides', 'https://entwanne.github.io/presentation_attributs_dynamiques_python'),
@@ -402,7 +434,7 @@ files['en/index.html'] = {
                     'description': '''
                     "Have you ever seen… a pythonic code?"<br/>
                     This talk is about constructions that can make a code pythonic or not.<br/>
-                    <small>PyConFr 2017 Toulouse.</small>
+                    <small>PyConFR 2017 Toulouse.</small>
                     ''',
                     'links': [
                         ('Youtube', 'https://www.youtube.com/watch?v=qafVmsdUyjs'),
