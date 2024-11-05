@@ -94,6 +94,21 @@ files['index.html'] = {
             'title': 'Conférences',
             'entries': [
                 {
+                    'title': 'La mécanique des imports',
+                    'image': 'img/logo_pyconfr_2024.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Voyage au cœur du mécanisme des imports en Python afin de comprendre comment ils fonctionnent
+                    et comment nous pouvons agir sur leur comportement,
+                    à travers l'écriture de finders et de loaders personnalisés.<br/>
+                    <small>PyConFR 2024 Strasbourg.</small>
+                    ''',
+                    'links': [
+                        ('Support', 'https://entwanne.github.io/presentation_imports/'),
+                        ('Code source', 'https://github.com/entwanne/presentation_imports'),
+                    ],
+                },
+                {
                     'title': 'Devenir incollable sur les callables',
                     'image': 'img/logo_pyconfr_2023.png',
                     'image_alt': 'logo',
@@ -368,6 +383,20 @@ files['en/index.html'] = {
         {
             'title': 'Talks',
             'entries': [
+                {
+                    'title': f'Imports mechanism {fr_flag}',
+                    'image': '../img/logo_pyconfr_2024.png',
+                    'image_alt': 'logo',
+                    'description': '''
+                    Dive into Python imports mechanism to underdand how they work and how we can alter their behaviour,
+                    by writing custom finders and loaders<br/>
+                    <small>PyConFR 2024 Strasbourg.</small>
+                    ''',
+                    'links': [
+                        ('Slides', 'https://entwanne.github.io/presentation_imports/'),
+                        ('Source code', 'https://github.com/entwanne/presentation_imports'),
+                    ],
+                },
                 {
                     'title': f'Become unbeatable on callables {fr_flag}',
                     'image': '../img/logo_pyconfr_2023.png',
