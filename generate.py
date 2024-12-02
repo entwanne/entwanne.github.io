@@ -35,7 +35,7 @@ files['index.html'] = {
                     'description': 'Cours portant sur la programmation orientée objet en Python : classes, méthodes, héritage, opérateurs et autres.',
                     'links': [
                         ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
-                        ('Code source', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
+                        ('Code source', 'https://github.com/entwanne/cours-python3-poo'),
                     ],
                 },
                 {
@@ -325,7 +325,7 @@ files['en/index.html'] = {
                     'description': 'French course of object-oriented programming in Python: classes, methods, inheritance, operators and so more.',
                     'links': [
                         ('Publication', 'https://zestedesavoir.com/tutoriels/1253/la-programmation-orientee-objet-en-python/'),
-                        ('Source code', 'https://github.com/ArnaudCalmettes/cours-python3-poo'),
+                        ('Source code', 'https://github.com/entwanne/cours-python3-poo'),
                     ],
                 },
                 {
