@@ -283,12 +283,14 @@ files['index.html'] = {
                 {
                     'image': 'img/logo_bluesky.png',
                     'image_title': 'Bluesky',
-                    'raw': '<h4><a href="https://bsky.app/profile/entwanne.bsky.social">@entwanne.bsky.social</a></h4>',
+                    'link': 'https://bsky.app/profile/entwanne.bsky.social',
+                    'raw': '<h4>@entwanne.bsky.social</h4>',
                 },
                 {
                     'image': 'img/logo_github.png',
                     'image_title': 'Github',
-                    'raw': '<h4><a href="https://github.com/entwanne">entwanne</a></h4>',
+                    'link': 'https://github.com/entwanne',
+                    'raw': '<h4>entwanne</h4>',
                 },
             ],
         },
@@ -572,12 +574,14 @@ files['en/index.html'] = {
                 {
                     'image': '../img/logo_bluesky.png',
                     'image_title': 'Bluesky',
-                    'raw': '<h4><a href="https://bsky.app/profile/entwanne.bsky.social">@entwanne.bsky.social</a></h4>',
+                    'link': 'https://bsky.app/profile/entwanne.bsky.social',
+                    'raw': '<h4>@entwanne.bsky.social</h4>',
                 },
                 {
                     'image': '../img/logo_github.png',
                     'image_title': 'Github',
-                    'raw': '<h4><a href="https://github.com/entwanne">entwanne</a></h4>',
+                    'link': 'https://github.com/entwanne',
+                    'raw': '<h4>entwanne</h4>',
                 },
             ],
         },

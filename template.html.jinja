@@ -33,6 +33,9 @@
       <div class="row">
 	{% for entry in row %}
 	<section class="col-md-4">
+          {% if entry.link %}
+          <a href="{{ entry.link }}">
+          {% endif %}
 	  <img src="{{ entry.image }}" alt="{{ entry.image_alt or entry.image_title }}" title="{{ entry.image_title }}" />
 	  {% if entry.raw %}
 	  {{ entry.raw }}
@@ -50,6 +53,9 @@
 	  </p>
 	  {% endif %}
 	  {% endif %}
+          {% if entry.link %}
+          </a>
+          {% endif %}
 	</section>
 	{% endfor %}
       </div>
