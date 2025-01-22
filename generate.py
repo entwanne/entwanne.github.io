@@ -13,7 +13,7 @@ files['index.html'] = {
     'avatar_alt': 'entwanne',
     'lang': 'fr',
     'header_links': f'<a href="#">{fr_flag}</a> — <a href="en/">{en_flag}</a>',
-    'credits': '© Logos Python, PyConFR, Zeste de Savoir, iRobot, Twitter & Github. Drapeaux par OpenMoji.',
+    'credits': '© Logos Python, PyConFR, Zeste de Savoir, iRobot, Bluesky & Github. Drapeaux par OpenMoji.',
     'sections': [
         {
             'title': 'Publications',
@@ -281,9 +281,9 @@ files['index.html'] = {
                     'raw': '<h4>antoine <i>[dot]</i> rozo <i>[at]</i> gmail <i>[dot]</i> com</h4>',
                 },
                 {
-                    'image': 'img/logo_twitter.png',
-                    'image_title': 'Twitter',
-                    'raw': '<h4><a href="http://twitter.com/entwanne">@entwanne</a></h4>',
+                    'image': 'img/logo_bluesky.png',
+                    'image_title': 'Bluesky',
+                    'raw': '<h4><a href="https://bsky.app/profile/entwanne.bsky.social">@entwanne.bsky.social</a></h4>',
                 },
                 {
                     'image': 'img/logo_github.png',
@@ -303,7 +303,7 @@ files['en/index.html'] = {
     'avatar_alt': 'entwanne',
     'lang': 'en',
     'header_links': f'<a href="../">{fr_flag}</a> — <a href="#">{en_flag}</a>',
-    'credits': '© Python, PyConFR, Zeste de Savoir, iRobot, Twitter & Github logos. Flags by OpenMoji.',
+    'credits': '© Python, PyConFR, Zeste de Savoir, iRobot, Bluesky & Github logos. Flags by OpenMoji.',
     'sections': [
         {
             'title': 'Publications',
@@ -570,9 +570,9 @@ files['en/index.html'] = {
                     'raw': '<h4>antoine <i>[dot]</i> rozo <i>[at]</i> gmail <i>[dot]</i> com</h4>',
                 },
                 {
-                    'image': '../img/logo_twitter.png',
-                    'image_title': 'Twitter',
-                    'raw': '<h4><a href="http://twitter.com/entwanne">@entwanne</a></h4>',
+                    'image': '../img/logo_bluesky.png',
+                    'image_title': 'Bluesky',
+                    'raw': '<h4><a href="https://bsky.app/profile/entwanne.bsky.social">@entwanne.bsky.social</a></h4>',
                 },
                 {
                     'image': '../img/logo_github.png',
