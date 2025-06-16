@@ -104,6 +104,8 @@ files['index.html'] = {
                     <small>PyConFR 2024 Strasbourg.</small>
                     ''',
                     'links': [
+                        ('IndyMotion', 'https://indymotion.fr/w/g29bsQui3fuUJXxxHWji7j'),
+                        ('PyVideo', 'https://pyvideo.org/pycon-fr-2024/la-mecanique-des-imports.html'),
                         ('Support', 'https://entwanne.github.io/presentation_imports/'),
                         ('Code source', 'https://github.com/entwanne/presentation_imports'),
                     ],
@@ -120,6 +122,7 @@ files['index.html'] = {
                     ''',
                     'links': [
                         ('IndyMotion', 'https://indymotion.fr/w/7ZN6k7KKG1wab3g9Fh8h1E'),
+                        ('PyVideo', 'https://pyvideo.org/pycon-fr-2023/devenir-incollable-sur-les-callables.html'),
                         ('Support', 'https://entwanne.github.io/presentation_callables/'),
                         ('Code source', 'https://github.com/entwanne/presentation_callables'),
                     ],
@@ -395,6 +398,8 @@ files['en/index.html'] = {
                     <small>PyConFR 2024 Strasbourg.</small>
                     ''',
                     'links': [
+                        ('IndyMotion', 'https://indymotion.fr/w/g29bsQui3fuUJXxxHWji7j'),
+                        ('PyVideo', 'https://pyvideo.org/pycon-fr-2024/la-mecanique-des-imports.html'),
                         ('Slides', 'https://entwanne.github.io/presentation_imports/'),
                         ('Source code', 'https://github.com/entwanne/presentation_imports'),
                     ],
@@ -411,6 +416,7 @@ files['en/index.html'] = {
                     ''',
                     'links': [
                         ('IndyMotion', 'https://indymotion.fr/w/7ZN6k7KKG1wab3g9Fh8h1E'),
+                        ('PyVideo', 'https://pyvideo.org/pycon-fr-2023/devenir-incollable-sur-les-callables.html'),
                         ('Slides', 'https://entwanne.github.io/presentation_callables/'),
                         ('Source code', 'https://github.com/entwanne/presentation_callables'),
                     ],
