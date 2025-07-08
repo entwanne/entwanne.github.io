@@ -3,8 +3,7 @@ import jinja2
 
 files = {}
 
-fr_flag = '<img src="/img/fr_flag.png" alt="FR" title="Français" />'
-en_flag = '<img src="/img/gb_flag.png" alt="EN" title="English" />'
+fr = '<small>(fr)</small>'
 
 files['index.html'] = {
     'title': 'Antoine Rozo (entwanne)',
@@ -12,8 +11,8 @@ files['index.html'] = {
     'avatar': 'img/entwanne.png',
     'avatar_alt': 'entwanne',
     'lang': 'fr',
-    'header_links': f'<a href="#">{fr_flag}</a> — <a href="en/">{en_flag}</a>',
-    'credits': '© Logos Python, PyConFR, Zeste de Savoir, iRobot, Bluesky & Github. Drapeaux par OpenMoji.',
+    'header_links': '<a href="#">Français</a> — <a href="en/" lang="en">English</a>',
+    'credits': '© Logos Python, PyConFR, Zeste de Savoir, iRobot, Bluesky & Github.',
     'sections': [
         {
             'title': 'Publications',
@@ -307,14 +306,14 @@ files['en/index.html'] = {
     'avatar': '../img/entwanne.png',
     'avatar_alt': 'entwanne',
     'lang': 'en',
-    'header_links': f'<a href="../">{fr_flag}</a> — <a href="#">{en_flag}</a>',
-    'credits': '© Python, PyConFR, Zeste de Savoir, iRobot, Bluesky & Github logos. Flags by OpenMoji.',
+    'header_links': '<a href="../" lang="fr">Français</a> — <a href="#">Anglais</a>',
+    'credits': '© Python, PyConFR, Zeste de Savoir, iRobot, Bluesky & Github logos.',
     'sections': [
         {
             'title': 'Publications',
             'entries': [
                 {
-                    'title': f'Zest of Python {fr_flag}',
+                    'title': f'Zest of Python {fr}',
                     'image': '../img/logo_zeste_python.png',
                     'image_alt': 'logo',
                     'description': "Beginners course to learn Python basics (variables, data types, conditions, loops, functions, modules).",
@@ -324,7 +323,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Object-oriented programming in Python {fr_flag}',
+                    'title': f'Object-oriented programming in Python {fr}',
                     'image': '../img/logo_cours_python_poo.png',
                     'image_alt': 'logo',
                     'description': 'French course of object-oriented programming in Python: classes, methods, inheritance, operators and so more.',
@@ -334,7 +333,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Advanced Python notions {fr_flag}',
+                    'title': f'Advanced Python notions {fr}',
                     'image': '../img/logo_cours_python_avance.png',
                     'image_alt': 'logo',
                     'description': 'French course on advanced notions of Python language: iterators, générators, decorators, metaclasses, etc.',
@@ -344,7 +343,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Secrets of pythonic code {fr_flag}',
+                    'title': f'Secrets of pythonic code {fr}',
                     'image': '../img/logo_article_code_pythonique.png',
                     'image_alt': 'logo',
                     'description': 'French article dedicated to Python philosophy and structuration of a good code.',
@@ -354,7 +353,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Dive into asynchronous Python {fr_flag}',
+                    'title': f'Dive into asynchronous Python {fr}',
                     'image': '../img/logo_article_python_asynchrone.png',
                     'image_alt': 'logo',
                     'description': "Construct an async Python engine to understand how it works internally.",
@@ -364,7 +363,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Python variables, scopes and closures {fr_flag}',
+                    'title': f'Python variables, scopes and closures {fr}',
                     'image': '../img/logo_cours_python_closures.png',
                     'image_alt': 'logo',
                     'description': 'Explications about scoping and name binding for Python variables.',
@@ -374,7 +373,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Other publications {fr_flag}',
+                    'title': f'Other publications {fr}',
                     'image': '../img/logo_zds.png',
                     'image_alt': 'logo',
                     'description': 'Tutorials, articles & opinion pieces about various subjects (development, travels, food, etc.) on "Zeste de Savoir" platform.',
@@ -389,7 +388,7 @@ files['en/index.html'] = {
             'title': 'Talks',
             'entries': [
                 {
-                    'title': f'Imports mechanism {fr_flag}',
+                    'title': f'Imports mechanism {fr}',
                     'image': '../img/logo_pyconfr_2024.png',
                     'image_alt': 'logo',
                     'description': '''
@@ -405,7 +404,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Become unbeatable on callables {fr_flag}',
+                    'title': f'Become unbeatable on callables {fr}',
                     'image': '../img/logo_pyconfr_2023.png',
                     'image_alt': 'logo',
                     'description': '''
@@ -422,7 +421,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Draw me a turtle {fr_flag}',
+                    'title': f'Draw me a turtle {fr}',
                     'image': '../img/logo_root_robot.png',
                     'image_alt': 'logo',
                     'description': '''
@@ -435,7 +434,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Dive into asynchronous Python {fr_flag}',
+                    'title': f'Dive into asynchronous Python {fr}',
                     'image': '../img/logo_pyconfr_2019.png',
                     'image_alt': 'logo',
                     'description': '''
@@ -451,7 +450,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Dynamic attributes in Python {fr_flag}',
+                    'title': f'Dynamic attributes in Python {fr}',
                     'image': '../img/logo_pyconfr_2018.png',
                     'image_alt': 'logo',
                     'description': '''
@@ -465,7 +464,7 @@ files['en/index.html'] = {
                     ],
                 },
                 {
-                    'title': f'Secrets of pythonic code {fr_flag}',
+                    'title': f'Secrets of pythonic code {fr}',
                     'image': '../img/logo_pyconfr_2017.png',
                     'image_alt': 'logo',
                     'description': '''
