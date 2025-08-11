@@ -78,6 +78,16 @@ files['index.html'] = {
                     ],
                 },
                 {
+                    'title': 'La mécanique des imports en Python',
+                    'image': 'img/logo_article_mecanique_imports.png',
+                    'image_alt': 'logo',
+                    'description': 'Découverte en profondeur des mécanismes impliqués dans le système des imports de Python.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/articles/4762/la-mecanique-des-imports-en-python/'),
+                        ('Code source', 'https://github.com/entwanne/article_python_imports'),
+                    ],
+                },
+                {
                     'title': 'Autres publications',
                     'image': 'img/logo_zds.png',
                     'image_alt': 'logo',
@@ -370,6 +380,16 @@ files['en/index.html'] = {
                     'links': [
                         ('Publication', 'https://zestedesavoir.com/tutoriels/3163/variables-scopes-et-closures-en-python/'),
                         ('Source code', 'https://github.com/entwanne/cours_variables_scopes_closures_python'),
+                    ],
+                },
+                {
+                    'title': f'Import mechanism in Python {fr}',
+                    'image': '../img/logo_article_mecanique_imports.png',
+                    'image_alt': 'logo',
+                    'description': 'Discover how Python imports work and how to tweak them.',
+                    'links': [
+                        ('Publication', 'https://zestedesavoir.com/articles/4762/la-mecanique-des-imports-en-python/'),
+                        ('Source code', 'https://github.com/entwanne/article_python_imports'),
                     ],
                 },
                 {
